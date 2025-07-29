@@ -1,7 +1,7 @@
 <template>
   <details>
     <summary @click="handleToggle">
-      <h3>
+      <h3 :id="house.name">
         {{ house.name }}
       </h3>
     </summary>
