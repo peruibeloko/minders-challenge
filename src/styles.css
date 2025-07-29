@@ -1,0 +1,43 @@
+@import url('https://carlinhos.dev.br/shared/styles/theme.css');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+div#app {
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  background-color: var(--color__background);
+  color: var(--color__text);
+  font-family: var(--font__body);
+}
+
+h2 {
+  font-family: var(--font__heading);
+  font-size: var(--font-size__4);
+  margin-top: var(--size__3);
+  margin-bottom: var(--size__2);
+}
+
+article p {
+  text-align: center;
+  line-height: var(--line-height__body);
+}
+
+span.loading {
+  text-align: center;
+  display: block;
+  font-family: var(--font__heading);
+  padding: var(--size__1);
+  margin: var(--size__1);
+  border: 1px dashed var(--gray_dim);
+  border-radius: var(--size__1);
+}

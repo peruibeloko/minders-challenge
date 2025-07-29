@@ -7,6 +7,19 @@
   </table>
 </template>
 
+<style scoped>
+table {
+  margin: var(--size__2);
+  margin-top: 0;
+}
+
+th {
+  text-align: end;
+  padding-right: var(--size__1);
+  line-height: var(--line-height__body);
+}
+</style>
+
 <script setup lang="ts">
 import type { House } from '@shared/houses';
 import { ref } from 'vue';

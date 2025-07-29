@@ -3,14 +3,14 @@
   <article>
     <p>
       These are the four Great Houses! To learn more about each one, click on
-      its name!
+      its name.
     </p>
   </article>
   <section>
     <Suspense>
       <HouseList />
       <template #fallback>
-        <span>Loading...</span>
+        <span class="loading">Loading...</span>
       </template>
     </Suspense>
   </section>
@@ -20,4 +20,12 @@
 import HouseList from './HouseList.vue';
 </script>
 
-<style scoped></style>
+<style scoped>
+section {
+  width: 50%;
+  margin: var(--size__2);
+  display: flex;
+  flex-direction: column;
+  gap: var(--size__1);
+}
+</style>

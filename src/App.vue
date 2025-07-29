@@ -9,4 +9,22 @@
 
 <script setup lang="ts"></script>
 
-<style scoped></style>
+<style scoped>
+header {
+  background-color: var(--color__text);
+  padding: var(--size__1);
+}
+
+header > h1 > a {
+  text-decoration: none;
+  font-family: var(--font__heading);
+  color: var(--color__background);
+}
+
+main {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  align-items: center;
+}
+</style>
