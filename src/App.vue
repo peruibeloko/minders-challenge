@@ -26,5 +26,6 @@ main {
   flex-grow: 1;
   flex-direction: column;
   align-items: center;
+  margin: 0 var(--size__2);
 }
 </style>

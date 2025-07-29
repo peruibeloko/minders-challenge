@@ -21,10 +21,11 @@ body {
 }
 
 h2 {
+  text-align: center;
   font-family: var(--font__heading);
   font-size: var(--font-size__4);
   margin-top: var(--size__3);
-  margin-bottom: var(--size__2);
+  margin-bottom: var(--size__1);
 }
 
 article p {

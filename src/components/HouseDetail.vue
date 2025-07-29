@@ -50,5 +50,10 @@ summary {
   &::marker {
     content: '';
   }
+
+  &::-webkit-details-marker {
+    content: '';
+    display: none;
+  }
 }
 </style>

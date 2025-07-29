@@ -13,10 +13,14 @@ table {
   margin-top: 0;
 }
 
+td {
+  padding-top: var(--size__1);
+}
+
 th {
+  padding-top: var(--size__1);
   text-align: end;
   padding-right: var(--size__1);
-  line-height: var(--line-height__body);
 }
 </style>
 

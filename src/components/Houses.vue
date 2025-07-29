@@ -28,4 +28,10 @@ section {
   flex-direction: column;
   gap: var(--size__1);
 }
+
+@media (max-width: 720px) {
+  section {
+    width: 100%;
+  }
+}
 </style>
