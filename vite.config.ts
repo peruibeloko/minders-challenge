@@ -8,5 +8,13 @@ export default defineConfig({
     alias: {
       '@shared': import.meta.resolve('./shared/')
     }
+  },
+  server: {
+    proxy: {
+      '/api': {
+        target: 'http://localhost:8000',
+        changeOrigin: true
+      }
+    }
   }
 });
