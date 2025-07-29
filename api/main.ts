@@ -14,4 +14,4 @@ api.use(async (c, next) => {
 
 api.route('/api/', routes);
 
-Deno.serve({ port: 8080 }, api.fetch);
+Deno.serve({ port: 80 }, api.fetch);

@@ -17,4 +17,4 @@ app.route('/api/', routes);
 app.use('*', serveStatic({ root: './dist/' }));
 app.use('*', serveStatic({ path: './dist/index.html' }));
 
-Deno.serve({ port: 80 }, app.fetch);
+Deno.serve(app.fetch);
