@@ -33,9 +33,9 @@ const data = ref<PrettyHouse>({} as PrettyHouse);
 if (props.cache !== null) {
   data.value = props.cache;
 } else {
-  const house: House = await fetch(
-    `http://localhost:8080/api/houses/${props.id}`
-  ).then(r => r.json());
+  const house: House = await fetch(`/api/houses/${props.id}`).then(r =>
+    r.json()
+  );
 
   data.value = {
     Name: house.name!,

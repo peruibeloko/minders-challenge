@@ -1,4 +1,4 @@
-import { Handler } from '@hono/hono';
+import { Handler } from 'hono';
 
 import * as WizardAPI from '@/repositories/wizard.ts';
 

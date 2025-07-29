@@ -6,9 +6,7 @@
 import type { HouseListing } from '@shared/houses';
 import HouseDetail from './HouseDetail.vue';
 
-const houses: HouseListing[] = await fetch(
-  'http://localhost:8080/api/houses'
-).then(r => r.json());
+const houses: HouseListing[] = await fetch('/api/houses').then(r => r.json());
 </script>
 
 <style scoped></style>

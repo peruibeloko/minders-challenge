@@ -1,4 +1,4 @@
-import { Hono } from '@hono/hono';
+import { Hono } from 'hono';
 
 import * as handlers from '@/services/houses.ts';
 
