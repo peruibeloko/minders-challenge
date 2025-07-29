@@ -6,14 +6,6 @@
   </article>
   <section>
     <RouterLink :to="{ name: 'houses' }">Houses</RouterLink>
-    <RouterLink :to="{ name: 'houses' }">Houses</RouterLink>
-    <RouterLink :to="{ name: 'houses' }">Houses</RouterLink>
-    <RouterLink :to="{ name: 'houses' }">Houses</RouterLink>
-    <RouterLink :to="{ name: 'houses' }">Houses</RouterLink>
-    <RouterLink :to="{ name: 'houses' }">Houses</RouterLink>
-    <RouterLink :to="{ name: 'houses' }">Houses</RouterLink>
-    <RouterLink :to="{ name: 'houses' }">Houses</RouterLink>
-    <RouterLink :to="{ name: 'houses' }">Houses</RouterLink>
   </section>
 </template>
 
